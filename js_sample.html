@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="text/javascript" src="js/scripts.js"></script>
+</head>
+
+<body>
+
+<h2>Demo JavaScript Calculator</h2>
+
+<table>
+  <tr>
+  	<td style="text-align:right"> value 1 </td>
+    <td style="text-align:center"><input type="number" id="a" style="text-align:center"/></td>
+    <td style="text-align:center">
+    	<button type="button" onclick="calc('addition')"> + </button>
+    </td>
+  </tr>
+  <tr>
+  	<td style="text-align:right"> </td>
+    <td style="text-align:center" id="action"> ... </td>
+    <td style="text-align:center">
+    	<button type="button" onclick="calc('subtraction')"> - </button>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align:right"> value 2 </td>
+    <td style="text-align:center"><input type="number" id="b" style="text-align:center" style="text-align:center"/></td>
+    <td style="text-align:center">
+    	<button type="button" onclick="calc('mutliply')"> * </button>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align:right">  </td>
+    <td style="text-align:center"> = </td>
+    <td style="text-align:center">
+    	<button type="button" onclick="calc('divide')"> / </button>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align:right"> result: </td>
+    <td style="text-align:right"> <input type="text" id="c" style="text-align:center" readonly/> </td>
+    <td style="text-align:center">
+    	<button type="reset" onclick="cleanup()"> C </button>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
